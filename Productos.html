@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJH CarBoutique</title>
+    <link rel="icon" type="image/png" href="Imagenes/lOGO2.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="productostyle.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" >
+                <img src="Imagenes/lOGO2.png" alt="Logo">
+                AJH CarBoutique
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activo" >Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+        <!-- Main Content -->
+<div class="container mt-5 custom-background">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center text-white-custom">PRODUCTOS</h1>
+            <p class="text-center text-white-custom">Tambien vendemos productos para mejorar la estetica de su vehiculo.<br> Tenemos tanto productos universales para todo tipo de vehiculo y tambien otros solo para ciertos modelos y marcas. <br>Con el pasoo del terco se iran agregando mas y mas productos y con mejor orden para que sea mas facil su busqueda<br>En caso de necesitar un cambbio de color en el producto que compre como alerones, espoilers, estribos, etc. se cotiza tanto el costo de pintura y de instalacion via instagram.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center button-container">
+                <button class="btn custom-btn" onclick="toggleCards('universales')">Universales</button>
+                <button class="btn custom-btn" onclick="toggleCards('stickers')">Diseño en Stickers</button>
+                <button class="btn custom-btn" onclick="toggleCards('volkswagen')">Volkswagen</button>
+                <!--<button class="btn custom-btn" onclick="toggleCards('seat')">Seat</button>-->
+                <!--<button class="btn custom-btn" onclick="toggleCards('audi')">Audi</button>-->
+                <!--<button class="btn custom-btn" onclick="toggleCards('bmw')">BMW</button>-->
+                <button class="btn custom-btn" onclick="toggleCards('ropa')">Ropa</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <div class="row card-container universales">
+        <!-- Servicio 1 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Universales/Aleta-de-tiburon.png" class="card-img-top custom-image-size" alt="Wrap/Vinil automotriz">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Antena tipo aleta de tiburón</h5>
+                    <p class="card-text text-white-custom">Dale un toque más deportivo y agresivo con una antena totalmente funcional del estilo aleta de tiburón.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Aleta color básico: $300 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Aleta fibra de carbono: $500 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $50 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Universales/Manija-prortectora-freno-de-mano.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Manija Protectora Freno De Mano Universal Rojo Negro</h5>
+                    <p class="card-text text-white-custom">Mejora estilo, esttetica y comodidad de tu freno de mano dandole un estilo mas japones con un material de aluminio.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Manija: $450 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $150 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Universales/Kit-Almohada-Reposacabeza-Y-Fundas-Cinturón-Seguridad.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Kit Almohada Reposacabeza Y Fundas Cinturón Seguridad</h5>
+                    <p class="card-text text-white-custom">Aumenta tu comodidad al volante manteniendo esa seguridad que te brinda el automóvil, tenemos la disponibilidad de todas las marcas.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Kit: $650 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 4 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Universales/Cinta-protectora-para-auto.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Cinta protectora para auto</h5>
+                    <p class="card-text text-white-custom">Dale un toque de limpieza y protteccion a tu carro manteniendoo tus hules limpios de polvo o suciedad del exterior. Tenemos para todas las marcas.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Cinta: $239 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $100 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 5 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Universales/Aleron-universal-negro-brilloso-plastico.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Aleron Sedan Negro Brilloso Cajuela Tuning Racing Universal  </h5>
+                    <p class="card-text text-white-custom">Aleron compatible con la mayoria de sedanes para darles mayor estilo y forma. Dimensiones: 35 cm de ancho , 135 cm de largo, 17 cm de alto.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Aleron: $1300 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Pinttura o Wrap: Cotizar via instagram</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $200 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 6 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Universales/Lip-delantero-universal-plastico.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Lip Delantero Filo Color Facia Splitter Auto Universal 5 Pzs  </h5>
+                    <p class="card-text text-white-custom">Lip universsal compuestto de 5 piezas compatible con facias desde 160cm hasta 180cm de ancho</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Lip: $500 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Pinttura o Wrap: Cotizar via instagram</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $200 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row card-container stickers">
+        <!-- Servicio 1 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Stickers/Calcomania-Arañazo.png" class="card-img-top custom-image-size" alt="Wrap/Vinil automotriz">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Calcomania de arañazo </h5>
+                    <p class="card-text text-white-custom">Calcomania uniiversal para todo tipo de faros disponible en 5 colores diferentes: Amarillo, Rojo, Blanco, Negro o Azul.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Calcomania: $150 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $50 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Stickers/Franjas-Laterales.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Franjas laterales universales</h5>
+                    <p class="card-text text-white-custom">Vinil con diseño de franjas laterales para cualquier tipo de automovil para mejorar la estetica y apariencia del mismo.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Vinil: $310 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $100 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Stickers/Sticker-Reflejante-Manija-Protector-Engomada-Fosforescente.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Sticker Reflejante Manija Protector Engomada Fosforescente</h5>
+                    <p class="card-text text-white-custom">Proteje tus manijas de arañados no deseados en la pintura ademas de mayor seguridad gracias a la fosforescencia en las noches.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Sticker: $250 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $100 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row card-container volkswagen">
+        <!-- Servicio 1 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/VW/Cuartos-de-salpicadera-LED-Jetta-A4.png" class="card-img-top custom-image-size" alt="Wrap/Vinil automotriz">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Cuartos De Salpicadera Jetta A4 Secuenciales</h5>
+                    <p class="card-text text-white-custom">Dale un toque más actualizado y moderno a tu Jetta A4 con una mejor iluminnacion tanto en el dia como en las noches.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Cuartos Led: $420 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $100 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/VW/Pomo-Gti-Jetta-Golf-Bora-Clasico-Vw-Seat-Mk4-Mk6.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Pomo Gti Jetta Golf Bora Clasico Vw Mk4 Mk6</h5>
+                    <p class="card-text text-white-custom">Mejora la comodidad y la estetica de la palanca de cambien de tu VW con este pomo ligeramente mas alto y colorido que el original.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Pomo: $410 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $100 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Servicio 3 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/VW/Par-de-Carcasas-espejos-laterales-A4.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Par de Carcasas Jetta A4 Golf Mk4 Tipo Fibra De Carbono</h5>
+                    <p class="card-text text-white-custom">Eleva la estetica de tttu jetta o Golf MK4 con un diseño mas deportttivo y personalizado con estas carcasas estiloo deportivo.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Carcasas: $1100 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Instalación: $200 MXN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row card-container ropa">
+        <!-- Servicio 1 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Ropa/Playera-hipnosity.png" class="card-img-top custom-image-size" alt="Wrap/Vinil automotriz">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Playera marca hipnosity</h5>
+                    <p class="card-text text-white-custom">Hipnosity es la marca de playeras y sudaderas especializada en vehiculos, son diseños personalizados a gusto del cliente de alta calidad. </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Playera hipnosity: $250 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Se agrega el envio si es de fuera de puebla</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm custom-background">
+                <img src="Imagenes/Productos/Ropa/Sudadera-Hipnosity.png" class="card-img-top custom-image-size" alt="Cambio de Aceite y Filtro">
+                <div class="card-body">
+                    <h5 class="card-title text-white-custom">Sudadera marca Hipnosity</h5>
+                    <p class="card-text text-white-custom">Hipnosity es la marca de playeras y sudaderas especializada en vehiculos, son diseños personalizados a gusto del cliente de alta calidad.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item custom-background text-white-custom">Sudadera Hipnosity: $450 MXN</li>
+                        <li class="list-group-item custom-background text-white-custom">Se agrega el envio si es de fuera de puebla</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start mt-5 fixed-bottom">
+        <div class="text-center p-3">
+            Contáctenos buscando nuestro @ en Instagram, dando clic en el enlace, en la imagen o escaneando el QR: 
+            <a class="text-primary" href="https://www.instagram.com/ajhcarboutique/?hl=es">@AJHCARBOUTIQUE</a>
+            <!-- Imagen con el mismo enlace -->
+            <a href="https://www.instagram.com/ajhcarboutique/?hl=es">
+                <img src="Imagenes/Insta.png" alt="Instagram" style="width: 50px; height: 50px;">
+            </a>
+            <img src="Imagenes/QR.png" alt="Instagram" style="width: 50px; height: 50px;">
+        </div>
+    </footer>
+    
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Vincular el archivo JavaScript externo -->
+    <script src="productos.js"></script>
+</body>
+</html>

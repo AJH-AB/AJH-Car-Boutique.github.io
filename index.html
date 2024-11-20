@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJH CarBoutique</title>
+    <link rel="icon" type="image/png" href="Imagenes/lOGO2.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" >
+                <img src="Imagenes/lOGO2.png" alt="Logo">
+                AJH CarBoutique
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link activo" aria-current="page" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Productos.html">Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-container" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Imagenes/carrusel1.png" class="d-block w-100" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Imagenes/Carrusel2.png" class="d-block w-100" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Imagenes/Carrusel3.png" class="d-block w-100" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    
+</div>
+
+
+    <!-- Main Content -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center text-white-custom">¡¡Bienvenido a AJH Car Boutique!!</h1>
+            <p class="text-center text-white-custom">Taller dirigido a los entusiastas del automovilismo que buscan personalizar su vehiculo y dejarlo esteticamente unico.<br> Se cuenta con una cantidad amplia de servicios centrandose en la personalizacion estética. <br> Tambien se cuenta con productos y su instalacion adecuada de ellos ofreciendo el mejor rendimientto para su auto.</p>
+            <div class="text-center button-container">
+                <button class="btn custom-btn" onclick="window.location.href='Servicios.html'">Servicios</button>
+                <button class="btn custom-btn" onclick="window.location.href='Productos.html'">Productos</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start mt-5 fixed-bottom">
+        <div class="text-center p-3">
+            Contáctenos buscando nuestro @ en Instagram, dando clic en el enlace, en la imagen o escaneando el QR: 
+            <a class="text-primary" href="https://www.instagram.com/ajhcarboutique/?hl=es">@AJHCARBOUTIQUE</a>
+            <!-- Imagen con el mismo enlace -->
+            <a href="https://www.instagram.com/ajhcarboutique/?hl=es">
+                <img src="Imagenes/Insta.png" alt="Instagram" style="width: 50px; height: 50px;">
+            </a>
+            <img src="Imagenes/QR.png" alt="Instagram" style="width: 50px; height: 50px;">
+        </div>
+    </footer>
+    
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
